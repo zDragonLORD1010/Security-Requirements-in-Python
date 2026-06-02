@@ -1,0 +1,355 @@
+{
+    "timestamp": "2026-06-02T17:09:21.020092",
+    "results": [
+        {
+            "stig_id": "UBTU-22-411035",
+            "title": "Account inactivity must be 35 days",
+            "severity": "MEDIUM",
+            "status": "PASS",
+            "initial_check": true,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": true,
+            "details": [
+                "Verification started",
+                "Requirement passed verification"
+            ]
+        },
+        {
+            "stig_id": "UBTU-22-412025",
+            "title": "Maximum password age must be 60 days",
+            "severity": "MEDIUM",
+            "status": "PASS",
+            "initial_check": true,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": true,
+            "details": [
+                "Verification started",
+                "Requirement passed verification"
+            ]
+        },
+        {
+            "stig_id": "UBTU-22-412020",
+            "title": "Minimum password age must be 1 day",
+            "severity": "MEDIUM",
+            "status": "PASS",
+            "initial_check": true,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": true,
+            "details": [
+                "Verification started",
+                "Requirement passed verification"
+            ]
+        },
+        {
+            "stig_id": "UBTU-22-412015",
+            "title": "Password warning age must be 7 days",
+            "severity": "MEDIUM",
+            "status": "PASS",
+            "initial_check": true,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": true,
+            "details": [
+                "Verification started",
+                "Requirement passed verification"
+            ]
+        },
+        {
+            "stig_id": "UBTU-22-411015",
+            "title": "Duplicate UIDs must not exist",
+            "severity": "MEDIUM",
+            "status": "PASS",
+            "initial_check": true,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": true,
+            "details": [
+                "Verification started",
+                "Requirement passed verification"
+            ]
+        },
+        {
+            "stig_id": "UBTU-22-411020",
+            "title": "Duplicate usernames must not exist",
+            "severity": "MEDIUM",
+            "status": "PASS",
+            "initial_check": true,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": true,
+            "details": [
+                "Verification started",
+                "Requirement passed verification"
+            ]
+        },
+        {
+            "stig_id": "UBTU-22-411025",
+            "title": "Duplicate GIDs must not exist",
+            "severity": "MEDIUM",
+            "status": "PASS",
+            "initial_check": true,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": true,
+            "details": [
+                "Verification started",
+                "Requirement passed verification"
+            ]
+        },
+        {
+            "stig_id": "UBTU-22-411030",
+            "title": "Duplicate group names must not exist",
+            "severity": "MEDIUM",
+            "status": "PASS",
+            "initial_check": true,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": true,
+            "details": [
+                "Verification started",
+                "Requirement passed verification"
+            ]
+        },
+        {
+            "stig_id": "UBTU-22-412010",
+            "title": "Login banner must exist",
+            "severity": "MEDIUM",
+            "status": "PASS",
+            "initial_check": true,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": true,
+            "details": [
+                "Verification started",
+                "Requirement passed verification"
+            ]
+        },
+        {
+            "stig_id": "UBTU-22-412000",
+            "title": "Message of the Day must exist",
+            "severity": "LOW",
+            "status": "PASS",
+            "initial_check": true,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": true,
+            "details": [
+                "Verification started",
+                "Requirement passed verification"
+            ]
+        },
+        {
+            "stig_id": "UBTU-22-412005",
+            "title": "Remote login banner must exist",
+            "severity": "MEDIUM",
+            "status": "PASS",
+            "initial_check": true,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": true,
+            "details": [
+                "Verification started",
+                "Requirement passed verification"
+            ]
+        },
+        {
+            "stig_id": "UBTU-22-232155",
+            "title": "rsyslog configuration must exist",
+            "severity": "MEDIUM",
+            "status": "PASS",
+            "initial_check": true,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": true,
+            "details": [
+                "Verification started",
+                "Requirement passed verification"
+            ]
+        },
+        {
+            "stig_id": "UBTU-22-232160",
+            "title": "journald configuration must exist",
+            "severity": "MEDIUM",
+            "status": "PASS",
+            "initial_check": true,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": true,
+            "details": [
+                "Verification started",
+                "Requirement passed verification"
+            ]
+        },
+        {
+            "stig_id": "UBTU-22-232135",
+            "title": "/var/log/syslog group owner must be adm",
+            "severity": "MEDIUM",
+            "status": "PASS",
+            "initial_check": true,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": true,
+            "details": [
+                "Verification started",
+                "Requirement passed verification"
+            ]
+        },
+        {
+            "stig_id": "UBTU-22-232170",
+            "title": "/var/log/auth.log group must be adm",
+            "severity": "MEDIUM",
+            "status": "PASS",
+            "initial_check": true,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": true,
+            "details": [
+                "Verification started",
+                "Requirement passed verification"
+            ]
+        },
+        {
+            "stig_id": "UBTU-22-232185",
+            "title": "/var/log/apt/history.log group must be adm",
+            "severity": "MEDIUM",
+            "status": "PASS",
+            "initial_check": true,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": true,
+            "details": [
+                "Verification started",
+                "Requirement passed verification"
+            ]
+        },
+        {
+            "stig_id": "UBTU-22-232140",
+            "title": "/var/log/syslog owner must be root",
+            "severity": "MEDIUM",
+            "status": "PASS",
+            "initial_check": true,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": true,
+            "details": [
+                "Verification started",
+                "Requirement passed verification"
+            ]
+        },
+        {
+            "stig_id": "UBTU-22-611010",
+            "title": "/etc/passwd owner must be root",
+            "severity": "HIGH",
+            "status": "PASS",
+            "initial_check": true,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": true,
+            "details": [
+                "Verification started",
+                "Requirement passed verification"
+            ]
+        },
+        {
+            "stig_id": "UBTU-22-611020",
+            "title": "/etc/shadow owner must be root",
+            "severity": "HIGH",
+            "status": "PASS",
+            "initial_check": true,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": true,
+            "details": [
+                "Verification started",
+                "Requirement passed verification"
+            ]
+        },
+        {
+            "stig_id": "UBTU-22-232030",
+            "title": "/var/log/syslog permissions must be 640",
+            "severity": "MEDIUM",
+            "status": "PASS",
+            "initial_check": true,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": true,
+            "details": [
+                "Verification started",
+                "Requirement passed verification"
+            ]
+        },
+        {
+            "stig_id": "UBTU-22-232035",
+            "title": "/var/log/auth.log permissions must be 640",
+            "severity": "MEDIUM",
+            "status": "PASS",
+            "initial_check": true,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": true,
+            "details": [
+                "Verification started",
+                "Requirement passed verification"
+            ]
+        },
+        {
+            "stig_id": "UBTU-22-612020",
+            "title": "/etc/shadow permissions must be 640",
+            "severity": "HIGH",
+            "status": "PASS",
+            "initial_check": true,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": true,
+            "details": [
+                "Verification started",
+                "Requirement passed verification"
+            ]
+        },
+        {
+            "stig_id": "UBTU-22-612010",
+            "title": "/etc/passwd permissions must be 644",
+            "severity": "HIGH",
+            "status": "PASS",
+            "initial_check": true,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": true,
+            "details": [
+                "Verification started",
+                "Requirement passed verification"
+            ]
+        },
+        {
+            "stig_id": "UBTU-22-232150",
+            "title": "rsyslog package must be installed",
+            "severity": "MEDIUM",
+            "status": "PASS",
+            "initial_check": true,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": true,
+            "details": [
+                "Verification started",
+                "Requirement passed verification"
+            ]
+        },
+        {
+            "stig_id": "UBTU-22-412030",
+            "title": "Session timeout must be 900 seconds",
+            "severity": "MEDIUM",
+            "status": "ERROR",
+            "initial_check": false,
+            "remediation_attempted": false,
+            "remediation_success": false,
+            "final_result": false,
+            "details": [
+                "Verification started",
+                "Exception: [Errno 13] Permission denied: '/etc/profile.d/99-terminal_tmout.sh'"
+            ]
+        }
+    ]
+}
