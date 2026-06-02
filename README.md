@@ -6,8 +6,6 @@ Ubuntu STIG Checker is a software tool for automated verification of the Ubuntu 
 
 The project is implemented in Python and uses an architectural approach based on the principles of the RQCODE framework. The main purpose of the system is to automate the verification of the operating system configuration, identify security violations, and attempt to automatically correct detected inconsistencies.
 
----
-
 ## Main features
 
 * Automatic verification of STIG requirements.
@@ -15,8 +13,6 @@ The project is implemented in Python and uses an architectural approach based on
 * Generating a report on the audit results.
 * Support for system expansion by adding new STIG controls.
 * Using an object-oriented architecture and reusable validation components.
-
----
 
 ## System architecture
 
@@ -39,8 +35,6 @@ Report
 Each security control is represented by a separate STIG class.
 
 All STIGs are inherited from specialized verification components that contain common control logic.
-
----
 
 ## Project structure
 
@@ -74,8 +68,6 @@ security_requirements_in_python/
 └── reports/
 ```
 
----
-
 ## The principle of operation
 
 ### 1. STIG Registration
@@ -92,8 +84,6 @@ class UBTU22232030(
 
 After launching the application, all registered STIGs are loaded into the execution engine.
 
----
-
 ### 2. Performing verification
 
 The execution engine (`ExecutionEngine`) performs the following actions sequentially:
@@ -107,8 +97,6 @@ The execution engine (`ExecutionEngine`) performs the following actions sequenti
 
 4. After the correction, `verify()` is executed again.
 5. The final result is formed.
-
----
 
 ### 3. Report generation
 
@@ -126,8 +114,6 @@ Example:
 }
 ```
 
----
-
 ## Basic types of requirements
 
 Reusable requirements components are used to reduce code duplication.
@@ -143,8 +129,6 @@ Used for:
 * UBTU-22-412020
 * UBTU-22-412025
 
----
-
 ### FileGroupRequirement
 
 Checks the file group.
@@ -155,8 +139,6 @@ Used for:
 * UBTU-22-232170
 * UBTU-22-232185
 
----
-
 ### FileOwnerRequirement
 
 Checks the file owner.
@@ -166,8 +148,6 @@ Used for:
 * UBTU-22-232140
 * UBTU-22-611010
 * UBTU-22-611020
-
----
 
 ### FilePermissionRequirement
 
@@ -180,7 +160,6 @@ Used for:
 * UBTU-22-612020
 * UBTU-22-612010
 
----
 
 ### IdentityUniquenessRequirement
 
@@ -193,8 +172,6 @@ Used for:
 * UBTU-22-411025
 * UBTU-22-411030
 
----
-
 ### PackageInstalledRequirement
 
 Checks for the installed software package.
@@ -202,8 +179,6 @@ Checks for the installed software package.
 Used for:
 
 * UBTU-22-232150
-
----
 
 ### RequiredFileRequirement
 
@@ -217,8 +192,6 @@ Used for:
 * UBTU-22-232155
 * UBTU-22-232160
 
----
-
 ### TMOUTRequirement
 
 Checks for required configuration files.
@@ -226,8 +199,6 @@ Checks for required configuration files.
 Used for:
 
 * UBTU-22-412030
-
----
 
 ## Starting the system
 
@@ -250,8 +221,6 @@ After the verification is completed, the report will be saved in the directory (
 reports/
 ```
 
----
-
 ## Sample report
 
 Brief information is displayed in the console:
@@ -264,8 +233,6 @@ UBTU-22-411015 -> ERROR
 ```
 
 Detailed information is saved in the JSON file of the report to the 'reports' folder.
-
----
 
 ## Used technologies
 
